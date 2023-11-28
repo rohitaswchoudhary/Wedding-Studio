@@ -40,6 +40,18 @@
 
 html {
      scroll-behavior: smooth;
+     
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+     display: none;
+}
+
+   
+   /* Hide scrollbar for IE, Edge and Firefox */
+html {
+     -ms-overflow-style: none;  /* IE and Edge */
+     scrollbar-width: none;  /* Firefox */
 }
 
 body {
@@ -448,7 +460,7 @@ ul.search li a:hover {
 
 .read_more {
      font-size: 17px;
-     background-color: #413c31;
+     background-color: #1ec9cf;
      color: #fff;
      padding: 6px 0px;
      width: 100%;
